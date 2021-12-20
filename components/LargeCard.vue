@@ -1,5 +1,8 @@
 <template>
-  <div class="flex-1 overflow-hidden cursor-pointer">
+  <NuxtLink
+    :to="`/products/${card.id}`"
+    class="flex-1 overflow-hidden cursor-pointer"
+  >
     <img
       class="h-4/6 rounded-xl w-full mb-4"
       :src="require(`@/assets/images/${card.image || 'fe1.jpg'}`)"
@@ -9,7 +12,7 @@
     <p class="text-gray-500 mb-4">
       {{ card.snippet }}
     </p>
-  </div>
+  </NuxtLink>
 </template>
 
 <script>

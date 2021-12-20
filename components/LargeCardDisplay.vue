@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full mb-12">
+  <div class="w-full my-12">
     <h4 class="text-3xl font-bold">
       {{ cardsSection.title }}
     </h4>
