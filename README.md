@@ -1,5 +1,7 @@
 # nuxt-start
 
+Nuxt project demo
+
 ## Build Setup
 
 ```bash
