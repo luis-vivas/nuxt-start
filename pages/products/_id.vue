@@ -32,7 +32,7 @@
           {{ product.description }}
         </p>
       </div>
-      <!-- <Reviews /> -->
+      <Reviews />
     </div>
     <div v-else class="flex justify-center mx-auto py-20">
       <PageNotFound />
