@@ -10,12 +10,7 @@
         <div class="w-2/5 bg-gray-200 p-4 rounded-xl">
           <h1 class="text-2xl">{{ product.title }}</h1>
           <p class="text-black/[.7] my-4">{{ product.snippet }}</p>
-          <button
-            class="w-full text-lg text-white font-semibold px-12 p-4 mb-8 rounded-full bg-red-400 transition-all duration-500 ease-in-out hover:px-16"
-          >
-            Rent
-          </button>
-          <!-- <RentModal :product="product" /> -->
+          <RentModal :product="product" />
         </div>
       </div>
       <div class="my-12 border-b">

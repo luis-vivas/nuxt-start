@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>Customer Reviews</h3>
+    <h3 class="text-xl font-semibold">Customer Reviews</h3>
     <div v-if="reviewers.results">
       <ReviewCard
         v-for="reviewer in reviewers.results"

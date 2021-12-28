@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-6 h-16 flex">
-    <div class="w-14 h-14 rounded-full overflow-hidden">
+  <div class="p-4 mt-6 flex border rounded-md hover:border-red-300">
+    <div class="w-14 h-14 rounded-full overflow-hidden ring ring-red-400">
       <img :src="review.picture.large" alt="" />
     </div>
     <div class="ml-8">
