@@ -1,6 +1,6 @@
 # nuxt-start
 
-Nuxt project demo
+Nuxt project demo with Tailwindcss
 
 ## Build Setup
 
